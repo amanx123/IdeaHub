@@ -1,12 +1,12 @@
-"use client"
-import React, { ChangeEvent, useState } from 'react'
+'use client'
+import { ChangeEvent, useState } from 'react'
 type FormData = {
     interests: string[];
     ageGroup: string;
     readingLevel: string;
     recommendationType: string;
 };
-function page() {
+function Book() {
     const initialFormData: FormData = {
         interests: [],
         ageGroup: 'Adult',
@@ -80,4 +80,4 @@ function page() {
     )
 }
 
-export default page
+export default Book
